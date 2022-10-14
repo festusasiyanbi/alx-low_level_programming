@@ -23,7 +23,8 @@ printf("Last digit of %d is %d and is 0\n", n, lastdigitof);
 }
 else if (lastdigitof < 6 && lastdigitof != 0)
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastdigitof);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n,lastdigitof);
 }
+/* This will return random figures*/
 return (0);
 }
