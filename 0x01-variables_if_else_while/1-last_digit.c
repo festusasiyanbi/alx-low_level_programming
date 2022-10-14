@@ -4,8 +4,6 @@
 /**
  * main - entry point for the program
  * 
- * description: Positive anything is better than negative nothing
- *
  * Return: Always return zero on success
  *
  */
@@ -13,6 +11,7 @@ int main(void)
 {
 int n;
 int lastdigit;
+
 n = rand() - RAND_MAX / 2;
 lastdigit = n % 10;
 srand(time(0));
@@ -28,6 +27,5 @@ else if (lastdigit < 6 && lastdigit != 0)
 {
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastdigit);
 }
-/* return 0 if no error, non-zero value if error*/
 return (0);
 }
