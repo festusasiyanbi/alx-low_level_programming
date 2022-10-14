@@ -4,27 +4,26 @@
 /**
  * main- entry point for the program
  *
- * return: zero if no errors otherwise non-zero value
  */
 int main(void)
 {
 int n;
-int lastdigitof;
+int lastdigit;
 n = rand() - RAND_MAX / 2;
-lastdigitof = n % 10;
+lastdigit = n % 10;
 srand(time(0));
-if (lastdigitof > 5)
+if (lastdigit > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, lastdigitof);
+printf("Last digit of %d is %d and is greater than 5\n", n, lastdigit);
 }
-else if (lastdigitof == 0)
+else if (lastdigit == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, lastdigitof);
+printf("Last digit of %d is %d and is 0\n", n, lastdigit);
 }
-else if (lastdigitof < 6 && lastdigitof != 0)
+else if (lastdigit < 6 && lastdigit != 0)
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n,lastdigitof);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n,lastdigit);
 }
-/* This will return random figures*/
+/* return 0 if no error, non-zero value if error*/
 return (0);
 }
