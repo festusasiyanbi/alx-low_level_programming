@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- Entry point for the program
+ * main - Entry point for the program
  *
- * return:by default returns -+0 respectively when n is <>= 0
+ * Return: by default returns -+0 respectively when n is <>= 0
  */
 int main(void)
 {

@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main- entry point for the program
+ * main - entry point for the program
  * 
  * description: Positive anything is better than negative nothing
  *
- * return: Always return zero on success
+ * Return: Always return zero on success
  *
  */
 int main(void)
