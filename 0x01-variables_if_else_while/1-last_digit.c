@@ -3,7 +3,10 @@
 #include <time.h>
 /**
  * main- entry point for the program
- * return- zero if no error, non-zero if error
+ * 
+ * description: Positive anything is better than negative nothing
+ *
+ * return: Always return zero on success
  *
  */
 int main(void)
