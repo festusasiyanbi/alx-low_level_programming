@@ -2,7 +2,7 @@
 /**
  * main - Entry for the program
  *
- * Return: Always return 0
+ * Return: Return 0 on success
  */
 int main(void)
 {
@@ -15,9 +15,9 @@ if (num == '9')
 {
 break;
 }
-else 
+else
 {
-putchar (',');
+putchar(',');
 putchar(' ');
 }
 }
