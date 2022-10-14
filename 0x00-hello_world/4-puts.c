@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- Serves as entry point for the program.
+ * main - Serves as entry point for the program.
  *
  * return:By detault returns zero if no errors otherwise returns non-zero value
  */
