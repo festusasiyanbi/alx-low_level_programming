@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-//sizeof evaluates the size of a variable
 printf("size of int: %d bytes\n", sizeof(int));
 printf("size of float: %d bytes\n", sizeof(float));
 printf("size of char: %d bytes\n", sizeof(char));
