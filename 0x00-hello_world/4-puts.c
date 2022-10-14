@@ -2,11 +2,11 @@
 /**
  * main - Serves as entry point for the program.
  *
- * return:By detault returns zero if no errors otherwise returns non-zero value
+ * Return: returns zero if no errors otherwise returns non-zero value
  */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-/* return: non-zero value if error */
+/* Return: non-zero value if error */
 return (0);
 }
