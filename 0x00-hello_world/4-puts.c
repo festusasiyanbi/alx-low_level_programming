@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Serves as entry point for the entire program
+ * main- Serves as entry point for the program.
  *
- * Return - By detault returns zero if no error is encountered otherwise returns non-zero value
+ * Return - By detault returns zero if no errors otherwise returns non-zero value.
  */
 
 int main(void)
