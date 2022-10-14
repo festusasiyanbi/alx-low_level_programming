@@ -10,8 +10,8 @@ int main(void)
 {
 int n;
 int lastdigitof;
-lastdigitof = n % 10;
 n = rand() - RAND_MAX / 2;
+lastdigitof = n % 10;
 srand(time(0));
 if (lastdigitof > 5)
 {
