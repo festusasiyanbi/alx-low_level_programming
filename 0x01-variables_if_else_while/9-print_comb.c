@@ -18,7 +18,7 @@ break;
 else 
 {
 putchar (',');
-putchar('');
+putchar(' ');
 }
 }
 putchar('\n');
