@@ -2,13 +2,13 @@
 /**
  * main - Entry for the program
  *
- * Return: Always return zero on success
+ * Return: Returns zero on success
  */
 int main(void)
 {
 int i, k = '0', j;
 
-for (i = '0'; i <= '9'; i++)
+for (i = '0'; i <= '9';i++)
 {
 for (j = k; j <= '9'; j++)
 {
@@ -25,7 +25,7 @@ if (i == '8' && j == '9')
 {
 break;
 }
-else 
+else
 {
 putchar(',');
 putchar(' ');
