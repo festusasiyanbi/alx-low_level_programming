@@ -1,5 +1,4 @@
-#include <unistd.h>
-"#include main.h"
+#include "main.h"
 /**
  * main - The entry for my program
  *
