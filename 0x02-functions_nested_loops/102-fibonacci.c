@@ -18,6 +18,6 @@ printf(", %ld", function);
 n1 = n2;
 n2 = function;
 }
-printf('\n');
+printf("\n");
 return (0);
 }
