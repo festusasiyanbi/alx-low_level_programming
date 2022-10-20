@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_abs - the function prints absolute value 
- * @a:this charater computes the absolute value 
+ * _abs - check for absolutevalue in the program
+ * @a: character compute the absolutevalue of an integer
  *
- * Return: returns 0 on success
+ * Return: returns absolutevalue of the integer
  */
 int _abs(int a)
 {
