@@ -7,7 +7,7 @@
  */
 int _abs(int a)
 {
-int k = a;
+int k =a;
 int absolutevalue;
 if (k < 0)
 {
