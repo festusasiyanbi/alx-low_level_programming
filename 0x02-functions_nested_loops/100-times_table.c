@@ -33,7 +33,7 @@ _putchar((o % 10) + 48);
 }
 else
 {
-_putchar(((o / 100) % 10) + 48):
+_putchar(((o / 100) % 10) + 48);
 _putchar(((o / 10) % 10) + 48);
 _putchar((o % 10) + 48);
 }
