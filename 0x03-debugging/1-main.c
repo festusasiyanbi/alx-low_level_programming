@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
- * main - causes an infinite loop
+ * main - causs an infinite loop
  *
- * Return: 0
+ * Return: returns 0 on success
  */
 int main(void)
 {
 int i;
-printf("Infinite loop incoming :(\n");
+printf("Infinite loop imcoming: (\n");
 i = 0;
 /*while (i < 10)*/
 /*{*/
 /*putchar(i);*/
 /*}*/
-printf("Inifnite loop avoided! \\0/\n");
+printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
