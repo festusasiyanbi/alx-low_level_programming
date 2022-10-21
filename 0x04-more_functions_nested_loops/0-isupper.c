@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isupper - checks if the parameters are in upper cases
  * @c: Variable text
