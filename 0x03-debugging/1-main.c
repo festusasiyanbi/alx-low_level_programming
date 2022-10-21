@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - causs an infinite loop
+ * main - causes an infinite loop
  *
- * Return: returns 0 on success
+ * Return: 0
  */
 int main(void)
 {
 int i;
-printf("Infinite loop imcoming: (\n");
+printf("Infinite loop incoming :(\n");
 i = 0;
 /*while (i < 10)*/
 /*{*/
