@@ -11,7 +11,7 @@ unsigned int m, d, c;
 if (n < 0)
 {
 _putchar(45);
-m = n* -1;
+m = n * -1;
 }
 else
 {
@@ -26,6 +26,7 @@ c *= 10;
 }
 
 for (; c >= 1; c /= 10)
+{
 _putchar(((m / c) % 10) + 48);
 }
 }
