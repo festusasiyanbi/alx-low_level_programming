@@ -18,7 +18,7 @@ k++;
 str = s;
 for (i = 0; i < (k - 1); i++)
 {
-for (j = i + 1, j > 0, j--)
+for (j = i + 1; j > 0; j--)
 {
 temp = *(str + j);
 (str + j) = (str + (j - 1));
