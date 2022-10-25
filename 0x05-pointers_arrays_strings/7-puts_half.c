@@ -18,9 +18,7 @@ if (k % 2 == 1)
 i = k / 2;
 else 
 i = (k - 1) / 2;
-
 for (i++; i < k; i++)
 _putchar(str[i]);
 _putchar('\n');
 }
-
