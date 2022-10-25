@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts - prints one char out of 2 strings
+ * puts2 - prints one char out of 2 strings
  * @str: input string
  * Return: void
  */
