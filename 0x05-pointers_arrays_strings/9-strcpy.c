@@ -13,9 +13,11 @@ int k = 0;
 while (k >= 0)
 {
 (dest + k) = (src + k);
-if (*(src + k) == '\0');
+if (*(src + k) == '\0')
+{
 break;
 k++;
+}
 }
 return (dest);
 }
