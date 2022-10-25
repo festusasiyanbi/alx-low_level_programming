@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts_half - prints half of a string
- * @str - The string input
+ * @str: The string input
  * Return: void
  */
 
@@ -16,7 +16,7 @@ k++;
 }
 if (k % 2 == 1)
 i = k / 2;
-else 
+else
 i = (k - 1) / 2;
 for (i++; i < k; i++)
 _putchar(str[i]);
