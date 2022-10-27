@@ -22,11 +22,11 @@ for (k = j; k < j + 10; k++)
 if (k % 2 == 0)
 printf(" ");
 if (k < size)
-printf("%.2x:", *(b + k));
+printf("%.2x", *(b + k));
 else
 printf(" ");
 }
-printf(" ");
+printf(".");
 for (l = j; l < j + 10; l++)
 {
 if (l >= size)
