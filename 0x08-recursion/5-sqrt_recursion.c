@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_operation - Prints the natural square root of a number.
+ * power_operation - Prints the natural square root of a number.
  * @c: the iterator
  * @n: input number
  * Return: the square root or -1
  */
 
-int print_operation(int n, int c)
+int power_operation(int n, int c)
 {
 if (c % (n / c) == 0)
 {
