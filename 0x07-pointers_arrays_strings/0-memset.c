@@ -4,6 +4,7 @@
  *  to by s with the constant byte b
  *  @s: a pointer to the memory area to be filled
  *  @c: the charater that fills the memory
+ *  @b: bytes
  *  @n: number of bytes to be filled
  *  Return: Returns a pointer to the memory area s
  */
