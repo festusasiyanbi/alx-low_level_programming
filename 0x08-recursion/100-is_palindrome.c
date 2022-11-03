@@ -33,7 +33,7 @@ return (0);
 /**
  * is_palindrome - detects if a string is a palindrome
  * @s: string
- * Return: 1 if s is a palindrom otherwise 0
+ * Return: 1 if s is a palindrome otherwise 0
  */
 
 int is_palindrome(char *s)
