@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - the function prints multiplication of two integers
  * @argc: argument count
@@ -17,6 +18,6 @@ b = atoi(argv[2]);
 printf("%d\n", a *b);
 return (0);
 }
-printf("Error\n")
+printf("Error\n");
 return (1);
 }

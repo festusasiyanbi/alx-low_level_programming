@@ -17,12 +17,12 @@ if (!isdigit(str[count]))
 {
 return (0);
 }
-count++
+count++;
 }
 return (1);
 }
 
-/*8
+/**
  * main - prints the name of the program
  * @argc: argument count
  * @argv: argument vector
@@ -45,7 +45,7 @@ sum += str_to_int;
 else
 {
 printf("Error\n");
-return (1)
+return (1);
 }
 count++;
 }
