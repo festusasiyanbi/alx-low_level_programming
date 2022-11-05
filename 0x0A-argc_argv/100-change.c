@@ -18,7 +18,7 @@ if (argc != 2)
 printf("Error\n");
 return (1);
 }
-total = atoi(agrv[1]); /* convert string to integer */
+total = atoi(argv[1]); /* convert string to integer */
 if (total <= 0)
 {
 printf("0\n");
