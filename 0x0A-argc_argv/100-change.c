@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 /* Declaring required variables */
 int position, total, change, aux;
 int coins[] = {25, 10, 5, 2, 1}; /* Array integer */
-position = total = total = aux = 0;
+position = total = change = aux = 0;
 if (argc != 2)
 {
 printf("Error\n");
