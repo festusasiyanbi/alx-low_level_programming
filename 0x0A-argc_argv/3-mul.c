@@ -21,6 +21,6 @@ return (0);
 else
 {
 printf("Error\n");
-}
 return (1);
+}
 }
