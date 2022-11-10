@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - multiplies 2 integers
- * @argc: argument counts
+ * @argc: n arguments
  * @argv: argument string
  * Return: interger
  */
