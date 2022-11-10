@@ -16,7 +16,7 @@ char **strtow(char *str);
 int word_len(char *str)
 {
 int index = 0, len = 0;
-while (*(str + index) && *(str = index) != ' ')
+while (*(str + index) && *(str + index) != ' ')
 {
 len++;
 index++;
@@ -60,7 +60,7 @@ words = count_words(str);
 if (words == 0)
 return (NULL);
 strings = malloc(sizeof(char *) * (words + 1));
-if (string == NULL)
+if (strings == NULL)
 return (NULL);
 for (w = 0; w < words; w++)
 {
@@ -70,7 +70,7 @@ letters = word_len(str + index);
 strings[w] = malloc(sizeof(char) * (letters + 1));
 if (strings[w] == NULL)
 {
-for (; w>= 0; w--)
+for (; w >= 0; w--)
 free(strings[w]);
 free(strings);
 return (NULL);
