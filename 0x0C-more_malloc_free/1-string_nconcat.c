@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * string_concat - concatenates 2 strings
+ * string_nconcat - concatenates 2 strings
  * @s1: first string
  * @s2: second string
  * @n: index
@@ -29,6 +29,9 @@ p = malloc((size1 + n + 1) * sizeof(char));
 if (p == NULL)
 return (0);
 for (i = 0; i < size1; i++)
+{
+p[i] = s1[i];
+for (; i < (size1 + n); i++)
 {
 p[i] = s2[i - size1];
 }
