@@ -53,11 +53,5 @@ return (dest);
 /**
  * _strdup - returns a pointer to the allocated space in the memory
  * @str: the string to be copied
- * Return: returns a pointer to a memory
+ * Return: returns a pointer to a me
  */
-
-char *_strdup(char *str)
-{
-
-
-}
