@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * _strlen - counts an array and returns its length
  * @s: array of elements
@@ -52,7 +53,7 @@ if (str == 0)
 {
 return (NULL);
 }
-size = -strlen(str) + 1;
+size = strlen(str) + 1;
 dest = (char *) malloc(sizeof(char) * size);
 if (dest == 0)
 {
