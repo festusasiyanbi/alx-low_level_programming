@@ -35,7 +35,7 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 size = (_strlen(s1) + _strlen(s2) + 1);
-dest = (char *) malloc(size * sizeof(char));
+dest = (char*) malloc(size * sizeof(char));
 if (dest == 0)
 {
 return (NULL);
