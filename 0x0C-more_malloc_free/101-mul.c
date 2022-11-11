@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - multiplies 2 integers
  * @argc: n arguments
@@ -9,7 +11,7 @@
 int main(int argc, char *argv[])
 
 {
-unsigned long int mul;
+unsigned long mul;
 int i, j;
 if (argc != 3)
 {
