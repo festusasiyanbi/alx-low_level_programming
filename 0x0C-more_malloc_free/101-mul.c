@@ -1,15 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
- * main - multiplies 2 integers
- * @argc: n arguments
+ * main - multiplies two integers
+ * @argc: argument count
  * @argv: argument string
- * Return: interger
+ * @Return: integer
  */
 
 int main(int argc, char *argv[])
-
 {
 unsigned long mul;
 int i, j;
