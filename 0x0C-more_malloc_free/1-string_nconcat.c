@@ -31,6 +31,7 @@ return (0);
 for (i = 0; i < size1; i++)
 {
 p[i] = s1[i];
+}
 for (; i < (size1 + n); i++)
 {
 p[i] = s2[i - size1];
@@ -38,3 +39,4 @@ p[i] = s2[i - size1];
 p[i] = '\0';
 return (p);
 }
+
