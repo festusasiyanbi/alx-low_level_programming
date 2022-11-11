@@ -39,4 +39,3 @@ p[i] = s2[i - size1];
 p[i] = '\0';
 return (p);
 }
-
