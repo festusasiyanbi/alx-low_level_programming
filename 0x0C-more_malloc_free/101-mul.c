@@ -3,7 +3,7 @@
  * main - multiplies two integers
  * @argc: argument count
  * @argv: argument string
- * @Return: integer
+ * Return: integer
  */
 
 int main(int argc, char *argv[])
