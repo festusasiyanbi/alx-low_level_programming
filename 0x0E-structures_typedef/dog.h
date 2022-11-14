@@ -1,22 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG_H
+#define DOG_H
+/**
+ * struct dog - This programs runs for a dog
+ * @age: The dog's age
+ * @name: The dog's name
+ * @owner: The owner 
+ * Description: This program is to give details about the unknown dog yet
+ */
 
 struct dog
 {
 char *name;
 float age;
-char *owner;
+char *owner
 };
 
-int main(void)
-{
-struct dog my_dog;
-my_dog.name = "Harry";
-my_dog.age = 3.5;
-my_dog.owner = "Festus";
+typedef struct dog dog_t;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
-printf("My name is %s\n", my_dog.name);
-printf("I am %d\n years old", my_dog.age);
-printf("The name of my boss is %s\n", my_dog.owner);
-return (0);
-}
+#endif /* DOG_H */
