@@ -1,10 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
+
 /**
  * struct dog - This programs runs for a dog
  * @age: The dog's age
  * @name: The dog's name
- * @owner: The owner 
+ * @owner: The owner
  * Description: This program is to give details about the unknown dog yet
  */
 
