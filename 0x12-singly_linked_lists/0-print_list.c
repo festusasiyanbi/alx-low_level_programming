@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_list - The function that prints all the elements of a list_t list
+ * print_list - the function that prints all the elements of a list_t list
  * @h: The list_t list
  * Return: The number of nodes in list_t list (h)
  */
@@ -13,9 +13,9 @@ size_t nodes = 0;
 while (h)
 {
 if (h->str == NULL)
-printf("[0] (Nil)\n");
+printf("[0](Nil)\n");
 else
-printf("[%d] %s\n", h->len, h->str);
+printf("[%d]%s\n", h->len, h->str);
 nodes++;
 h = h->next;
 }
