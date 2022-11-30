@@ -51,7 +51,7 @@ return (0);
  * Return: The size of the list that was freed
  */
 
-size_t free_listint_safe(const listint_t **h)
+size_t free_listint_safe(listint_t **h)
 {
 listint_t *tmp;
 size_t nodes, index;
