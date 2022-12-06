@@ -171,7 +171,7 @@ printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 
 /**
  * print_abi - Prints the ABI version of an ELF header
- * @e_ident - A pointer to an array containing the ELF ABI version
+ * @e_ident: A pointer to an array containing the ELF ABI version
  */
 
 void print_abi(unsigned char *e_ident)
