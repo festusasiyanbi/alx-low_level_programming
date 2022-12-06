@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char *create_butter(char *file)
+char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
@@ -73,7 +73,7 @@ exit(98);
 w = write(to, buffer, r);
 if (to == -1 || w == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't write to $s\n", argv[2]);
+dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 free(buffer);
 exit(99);
 }
