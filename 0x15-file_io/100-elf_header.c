@@ -43,7 +43,7 @@ exit(98);
  * Description: Magic numbers are seperated by spaces
  */
 
-void print_magic(unsigned char e_ident)
+void print_magic(unsigned char *e_ident)
 {
 int index;
 printf("  Magic:   ");
