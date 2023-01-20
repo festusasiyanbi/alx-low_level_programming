@@ -39,7 +39,7 @@ return (1);
 }
 h2 = h1;
 h1 = h1->next;
-i++
+i++;
 }
 return (-1);
 }

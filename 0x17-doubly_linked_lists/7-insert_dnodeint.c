@@ -34,6 +34,7 @@ else
 {
 new = malloc(sizeof(dlistint_t));
 if (new != NULL)
+{
 new->n = n;
 new->next = head->next;
 new->prev = head;
